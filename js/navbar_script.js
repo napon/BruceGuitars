@@ -6,8 +6,7 @@
  			      }, 10); //100ms for example
       	}
 
-        $('.navburger').click(function(e){
-          console.log('hello'); 
+        $('.allproducts').click(function(e){
           var menu = $('.navmenu');
           $('body').toggleClass('nav-active');
           e.preventDefault();
