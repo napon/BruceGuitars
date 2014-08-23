@@ -1,0 +1,36 @@
+.navmenu {
+	background: white;
+	width: 100%;
+	margin: 0 auto;
+	max-height: 0;
+	text-align: center;
+	top: 11%;
+	overflow: hidden;
+	position: relative;
+	transition: max-height 0.3s;
+}
+
+.nav-active .navmenu {
+	max-height: 100px;
+}
+
+.navmenu > ul > li > a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.navmenu > ul > li > a:hover {
+	color: #FF0000;
+}
+	
+
+.navmenu > ul {
+	list-style-type: none;
+	font-size: 12pt;
+}
+
+.navmenu > ul > li {
+	display: inline;
+	margin: 30px;
+}
+

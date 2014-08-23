@@ -1,0 +1,383 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+
+.container {
+  margin: auto;
+}
+
+/*---------------------------------------
+  GLOBAL CSS
+---------------------------------------*/
+
+body {
+  background-color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+video.fillWidth {
+  position: absolute;
+  width: auto;
+  z-index: -1;
+}
+
+.video-container {
+  top:0%;
+  left:0%;
+  height:100%;
+  width:100%;
+  overflow: hidden;
+}
+
+.left {
+  float: left;
+}
+
+.tleft {
+  text-align: left;
+}
+
+.right {
+  float: right;
+}
+
+.tright {
+  text-align: right;
+}
+
+
+.section-container {
+  margin: auto;
+  width: 90%;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.section-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*CTA -- Dark BG*/
+.cta-dark {
+  background-color: #333;
+  border: 5px solid #C1272D;
+  display: block;
+  padding: 13px;
+  float: right;
+  color: #fff;
+  font-family: "Intro Bold Caps", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.cta-dark:hover {
+  background-color: #C1272D;
+  border: 5px solid #C1272D;
+}
+
+/*CTA -- Light BG*/
+.cta-light {
+  background-color: #f2f2f2;
+  border: 5px solid #333;
+  display: block;
+  padding: 13px;
+  float: left;
+  color: #C1272D;
+  font-family: "Intro Bold Caps", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.cta-light:hover {
+  background-color: #C1272D;
+  border: 5px solid #C1272D;
+  color: #fff;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 100;
+  color: #808080;
+}
+
+header h1 {
+  font-family: "Garamond Premier Pro", serif;
+  font-size: 70px;
+  font-weight: 100;
+  font-style: italic;
+  color: #808080;
+  margin: 0;
+  line-height: 70px;
+}
+
+header h1 em {
+  font-family: "Garamond Premier Pro", serif;
+  font-size: 80px;
+  font-weight: 700;
+  font-style: italic;
+  font-variant: small-caps;
+  color: #C1272D;
+}
+
+.three {
+  width: 33.333333%;
+  float: left;
+}
+
+
+/*---------------------------------------
+  HEADER
+---------------------------------------*/
+
+#header {
+  position: fixed;
+  font-family: 'Open Sans Light', sans-serif;
+  font-size: 25px;
+  color: #808080;
+  background-color: #333;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #444;
+  z-index: 9999;
+}
+
+.head-left {
+  height: auto;
+  margin-left: 5%;
+} 
+
+.head-right {
+  height: auto;  
+  margin-right: 5%;
+}
+
+
+/* Positions the elements vertically center */
+.logo,
+.navburger,
+.head-left, .head-right,
+.socmed-icons,
+.cta-dark,
+.header-links {
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.logo {
+  background: url(../imgs/brucelogo-red.svg) no-repeat;
+  width: 150px;
+  height: 70px;
+}
+
+.navburger {
+  background: url(../imgs/navburger.png) no-repeat;
+  width: 30px;
+  height: 25px;
+  margin-left: 30px;
+}
+
+#header nav {
+  font-family: "Intro Bold Caps", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+#header nav a {
+  color: #808080;
+  margin-left: 20px;
+}
+
+.socmed-icons,
+.socmed-fb,
+.socmed-twitter,
+.socmed-insta {
+  height: 20px;
+}
+
+.socmed-icons {
+  width: 150px;
+}
+
+.socmed-fb {
+  background: url(../imgs/socmed-icons/socmed-fb.png) no-repeat;
+  background-position: top left;
+  width: 11px;
+  margin-right: 30px;
+}
+
+  .socmed-fb:hover {
+    background-position: top right;
+  }
+
+.socmed-twitter {
+  background: url(../imgs/socmed-icons/socmed-twit.png) no-repeat;
+  background-position: top left;
+  width: 25px;
+  margin-right: 30px;
+}
+
+  .socmed-twitter:hover {
+    background-position: top right;
+  }
+
+.socmed-insta {
+  background: url(../imgs/socmed-icons/socmed-insta.png) no-repeat;
+  background-position: top left;
+  width: 20px;
+  margin-right: 30px;
+}
+
+  .socmed-insta:hover {
+    background-position: top right;
+  }
+
+
+
+
+/*---------------------------------------
+  SECTION: INTRO
+---------------------------------------*/
+
+
+#intro-welcome {
+  height: 100%;
+  padding-bottom: 45px;
+  margin: auto;
+}
+
+.intro-logo {
+  width: 300px;
+  margin: auto;
+}
+
+.tagline {
+  font-family: "Garamond Premier Pro", serif;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  max-width: 700px;
+  margin: auto;
+}
+
+.section-menu {
+  width: 90%;
+  margin: 90px auto 0;
+}
+
+.links {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.section-menu a {
+  color: #fff;
+  font-family: "Intro Bold Caps", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.section-menu span {
+  padding: 10px;
+  border-bottom: 5px solid #fff;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-top: 5px solid transparent;
+}
+
+.section-menu span:hover {
+  background-color: #C1272D;
+  border: 5px solid #C1272D;
+  color: #fff;
+}
+
+/*span.linkcenter {
+  margin: auto 24%;
+}*/
+
+
+
+/*---------------------------------------
+  SECTION: WHO IS BRUCE
+---------------------------------------*/
+
+#who-bruce {
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+.section-content p {
+  margin: 50px auto;
+}
+
+.left-side {
+  width: 50%;
+  float: left
+}
+
+.right-side {
+  width: 50%;
+  float: left
+}
+
+
+
+
+/*---------------------------------------
+  SECTION: DISCOVER LOCAL SOUND
+---------------------------------------*/
+
+#disc-local {
+  background-color: #333;
+  border-bottom: 1px solid #444;
+}
+
+#disc-local header {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+#disc-local img {
+  display: block;
+  margin: auto;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+
+/*Tansition on over*/
+#disc-local img:hover {
+  transform: matrix(0.99756, -0.06975, 0.06975, 0.99756, 0, 0);
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+
+#local-products {
+  margin: 30px auto;
+}
+
+
+
+/*---------------------------------------
+  SECTION: WHY
+---------------------------------------*/
+
+#converse {
+  background-color: #333;
+  height: 700px;
+  border-bottom: 1px solid #444;
+}
