@@ -7,6 +7,7 @@
       	}
 
         $('.navburger').click(function(e){
+          console.log('hello'); 
           var menu = $('.navmenu');
           $('body').toggleClass('nav-active');
           e.preventDefault();
