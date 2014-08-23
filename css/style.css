@@ -368,9 +368,11 @@ header h1 em {
   transition-duration: 0.2s;
 }
 
-#local-products {
-  margin: 30px auto;
+.owl-carousel {
+  margin: 50px auto;
 }
+
+
 
 
 
