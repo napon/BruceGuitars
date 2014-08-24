@@ -31,25 +31,15 @@ video.fillWidth {
   overflow: hidden;
 }
 
-.left {
-  float: left;
-}
+.left { float: left; }
 
-.tleft {
-  text-align: left;
-}
+.right { float: right; }
 
-.right {
-  float: right;
-}
+.tleft { text-align: left; }
 
-.tright {
-  text-align: right;
-}
+.tright { text-align: right; }
 
-.tcenter {
-  text-align: center;
-}
+.tcenter { text-align: center; }
 
 
 .section-container {
@@ -76,9 +66,9 @@ video.fillWidth {
 .cta-dark {
   background-color: #333;
   border: 5px solid #C1272D;
-  display: block;
+  /*display: block;*/
   padding: 13px;
-  float: right;
+  /*float: right;*/
   color: #fff;
   font-family: "Intro Bold Caps", sans-serif;
   font-size: 12px;
@@ -98,9 +88,9 @@ video.fillWidth {
 .cta-light {
   background-color: #f2f2f2;
   border: 5px solid #333;
-  display: block;
+  /*display: block;*/
   padding: 13px;
-  float: left;
+  /*float: left;*/
   color: #C1272D;
   font-family: "Intro Bold Caps", sans-serif;
   font-size: 12px;
