@@ -3,10 +3,16 @@
   border-bottom: 1px solid #444;
 }
 
-#socmed-feed .section-container {
-  overflow: hidden;
+#disc-local header {
+  width: 90%;
+  margin: auto;
+}
+
+#socmed-feed .ig-post {
+  margin-top: -3px;
 }
 
 #socmed-feed .ig-post img {
-	width: 100%;
+  width: 100%;
+  height: auto;
 }
