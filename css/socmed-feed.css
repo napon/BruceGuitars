@@ -1,0 +1,12 @@
+#socmed-feed {
+  background-color: #333;
+  border-bottom: 1px solid #444;
+}
+
+#socmed-feed .section-container {
+  overflow: hidden;
+}
+
+#socmed-feed .ig-post img {
+	width: 100%;
+}

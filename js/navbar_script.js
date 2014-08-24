@@ -14,7 +14,7 @@
 
         $('#dialog').plainModal({overlay: {fillColor: '#3d0808', opacity: 0.7}});
 
-        $('.cta-dark').click(function(e) {
+        $('#visitme').click(function(e) {
         	$("#dialog").plainModal('open');
         });
 

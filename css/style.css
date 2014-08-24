@@ -136,6 +136,14 @@ header h1 em {
   width: 50%;
 }
 
+.four {
+  width: 25%;
+}
+
+.full {
+  width: 100%;
+}
+
 
 /*---------------------------------------
   HEADER
@@ -400,11 +408,18 @@ header h1 em {
 /*---------------------------------------
   SECTION: SOCIAL MEDIA FEED
 ---------------------------------------*/
-#socmed-feed {
+/*#socmed-feed {
   background-color: #333;
   border-bottom: 1px solid #444;
 }
 
+#socmed-feed .section-container {
+  overflow: hidden;
+}
+
+#socmed-feed header {
+
+}*/
 
 
 
