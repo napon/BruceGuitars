@@ -47,13 +47,17 @@ video.fillWidth {
   text-align: right;
 }
 
+.tcenter {
+  text-align: center;
+}
+
 
 .section-container {
   position: relative;
   z-index: 1;
   margin: auto;
   width: 90%;
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -61,6 +65,10 @@ video.fillWidth {
   content: "";
   display: table;
   clear: both;
+}
+
+.intro-con {
+  padding-top: 200px;
 }
 
 
@@ -75,11 +83,15 @@ video.fillWidth {
   font-family: "Intro Bold Caps", sans-serif;
   font-size: 12px;
   letter-spacing: 2px;
+  -webkit-transition-duration: 0.2s;  
+  transition-duration: 0.2s;
 }
 
 .cta-dark:hover {
   background-color: #C1272D;
   border: 5px solid #C1272D;
+  -webkit-transition-duration: 0.2s;  
+  transition-duration: 0.2s;
 }
 
 /*CTA -- Light BG*/
@@ -93,12 +105,16 @@ video.fillWidth {
   font-family: "Intro Bold Caps", sans-serif;
   font-size: 12px;
   letter-spacing: 2px;
+  -webkit-transition-duration: 0.2s;  
+  transition-duration: 0.2s;
 }
 
 .cta-light:hover {
   background-color: #C1272D;
   border: 5px solid #C1272D;
   color: #fff;
+  -webkit-transition-duration: 0.2s;  
+  transition-duration: 0.2s;
 }
 
 p {
@@ -165,8 +181,8 @@ header h1 em {
 .navburger,
 .head-left, .head-right,
 .socmed-icons,
-.cta-dark,
-.header-links {
+#header .cta-dark,
+#header nav {
   display: block;
   position: relative;
   top: 50%;
@@ -189,13 +205,20 @@ header h1 em {
 
 #header nav {
   font-family: "Intro Bold Caps", sans-serif;
-  font-size: 12px;
-  letter-spacing: 2px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  /*margin-top: 5px;*/
 }
 
 #header nav a {
   color: #808080;
   margin-left: 20px;
+  padding-bottom: 5px;
+}
+
+#header nav a:hover {
+  color: #fff;
+  border-bottom: 5px solid #fff;
 }
 
 .socmed-icons,
@@ -372,16 +395,45 @@ header h1 em {
   margin: 50px auto;
 }
 
+#disc-local .section-content {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.center-link {
+  margin: auto;
+}
+
+
+/*CTA -- Dark BG*/
+.linktest {
+  background-color: #333;
+  border: 5px solid #C1272D;
+  padding: 13px;
+  color: #fff;
+  font-family: "Intro Bold Caps", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  -webkit-transition-duration: 0.2s;  
+  transition-duration: 0.2s;
+}
+
+.linktest:hover {
+  background-color: #C1272D;
+  border: 5px solid #C1272D;
+  -webkit-transition-duration: 0.2s;  
+  transition-duration: 0.2s;
+}
+
 
 
 
 
 /*---------------------------------------
-  SECTION: WHY
+  SECTION: FOOTER
 ---------------------------------------*/
 
-#converse {
+footer {
   background-color: #333;
-  height: 700px;
-  border-bottom: 1px solid #444;
 }
