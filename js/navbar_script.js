@@ -1,17 +1,20 @@
       $( document ).ready(function() {
       	
+        // Scroll to top on page refresh
       	window.onload = function () {
       		setTimeout (function () {
   				    $(window).scrollTop(0); 
- 			      }, 10); //100ms for example
+ 			      }, 10);
       	}
 
+        // Slide down products menu
         $('.allproducts').click(function(e){
           var menu = $('.navmenu');
           $('body').toggleClass('nav-active');
           e.preventDefault();
         });
 
+        // visit us dialog overlay //
         $('#dialog').plainModal({overlay: {fillColor: '#3d0808', opacity: 0.7}});
 
         $('#visitme').click(function(e) {
@@ -31,4 +34,12 @@
         $('.close-button').click(function() {
           $('#dialog').plainModal('close');
         });
+
+        // product hover
+        $('.product-item').hover(function() {
+          $(this).find('.product-name').fadeIn('fast');
+        }, function() {
+          $(this).find('.product-name').fadeOut('fast');
+        });
+
  });
