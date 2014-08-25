@@ -437,7 +437,12 @@ video.fillWidth {
   letter-spacing: 2px;
 }
 
-
+/*---------------------------------------
+  SECTION: INSTAGRAM FEED
+---------------------------------------*/
+.hashtag-title {
+  padding-bottom: 30px;
+}
 
 
 /*---------------------------------------

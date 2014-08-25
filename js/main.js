@@ -1,10 +1,10 @@
 $( document ).ready(function() {
 
-  // Scroll to 
-  $(".theman").click(function(event) {
+    // Scroll to 
+    $(".about").click(function(event) {
     event.preventDefault();
-    $("body").animate({scrollTop: $("#who-bruce").offset().top+75}, 'slow');
-  });
+    $("body").animate({scrollTop: $("#who-bruce").offset().top-75}, 'slow');
+    });
 
     // product hover
     $('.product-item').hover(function() {
