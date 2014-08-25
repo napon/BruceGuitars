@@ -34,36 +34,4 @@
         $('.close-button').click(function() {
           $('#dialog').plainModal('close');
         });
-
-        // product hover
-        $('.product-item').hover(function() {
-          $(this).find('.product-name').fadeIn('fast');
-        }, function() {
-          $(this).find('.product-name').fadeOut('fast');
-        });
-
-        // menu hover
-        var video = $('#Video video');
-        var vSource = $('#Video video source');
-        $('#local_band').hover(function() {
-          vSource.attr('src', '../BruceGuitars/videos/amps.mp4');
-          video[0].load();
-        }, function() {
-          vSource.attr('src', '../BruceGuitars/videos/bg.mp4');
-          video[0].load();
-        });
-        $('#local_guitarist').hover(function() {
-          vSource.attr('src', '../BruceGuitars/videos/amps.mp4');
-          video[0].load();
-        }, function() {
-          vSource.attr('src', '../BruceGuitars/videos/bg.mp4');
-          video[0].load();
-        });
-        $('#local_artist').hover(function() {
-          vSource.attr('src', '../BruceGuitars/videos/amps.mp4');
-          video[0].load();
-        }, function() {
-          vSource.attr('src', '../BruceGuitars/videos/bg.mp4');
-          video[0].load();
-        });
  });
