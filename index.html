@@ -12,7 +12,7 @@
   <script src="js/navbar_script.js"></script>
   <script src="js/main.js"></script>
   <script src="js/jquery.plainmodal.min.js"></script>
-
+  <script type="text/javascript" src="js/instagram_feed.js"></script>
   <script src="owl-carousel/owl.carousel.js"></script>
   <link rel="stylesheet" href="owl-carousel/owl.theme.css">
   <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
@@ -232,41 +232,18 @@
       <!-- SECTION: DISCOVER -->
       <section id="socmed-feed">
         <div class="section-container">
-          <header class="tcenter">
-            <h2>Hello I like Instagram</h2>
+          <header class="">
+            <h1>#BruceGuitars</h1>
           </header>
-
-          <div class="left four ig-post">
-            <img src="./imgs/instagram/insta1.jpg">
-          </div>
-
-          <div class="left four ig-post">
-            <img src="./imgs/instagram/insta2.jpg">
-          </div>
-
-          <div class="left four ig-post">
-            <img src="./imgs/instagram/insta3.jpg">
-          </div>
-
-          <div class="left four ig-post">
-            <img src="./imgs/instagram/insta4.jpg">
-          </div>
-
-          <div class="left four ig-post">
-            <img src="./imgs/instagram/insta5.jpg">
-          </div>
-
-          <div class="left four ig-post">
-            <img src="./imgs/instagram/insta6.jpg">
-          </div>
-
-          <div class="left four ig-post">
-            <img src="./imgs/instagram/insta7.jpg">
-          </div>
-
-          <div class="left four ig-post">
-            <img src="./imgs/instagram/insta8.jpg">
-          </div>
+          <script type="text/javascript">
+              var feed = new Instafeed({
+                  get: 'tagged',
+                  tagName: 'bruceguitars',
+                  clientId: 'afd63fe2973e46e0ba00d092202a286d',
+                  resolution: 'low_resolution'
+              });
+              feed.run();
+          </script><div id="instafeed"></div>
         </div>        
       </section>
 
