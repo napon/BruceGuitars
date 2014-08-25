@@ -25,6 +25,14 @@ body {
   background-color: #333;
 }
 
+
+/** {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}*/
+
+
 .container {
   margin: auto;
 }
@@ -46,8 +54,9 @@ body {
 
 
 /* GRID PERCENTAGES------------------------------*/
-.three { width: 33.333333%; }
+.seventyFive { width: 75%; }
 .fifty { width: 50%; }
+.three { width: 33.333333%; }
 .four { width: 25%; }
 .full { width: 100%; }
 
@@ -61,6 +70,8 @@ body {
 .tleft { text-align: left; }
 .tright { text-align: right; }
 .tcenter { text-align: center; }
+
+
 
 
 /* CTA Buttons CSS-------------------------------*/
@@ -117,9 +128,9 @@ p {
   color: #808080;
 }
 
-h1 {
+
+h1, h2 {
   font-family: 'Alegreya', serif;
-  font-size: 70px;
   font-weight: 100;
   font-style: italic;
   color: #808080;
@@ -127,15 +138,46 @@ h1 {
   line-height: 70px;
 }
 
-h1 em {
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: #808080;
+  margin: 0;
+}
+
+
+h1 { font-size: 70px; }
+h2 { font-size: 24px; }
+h3 { font-size: 24px; }
+
+
+h1 em, h2 em {
   font-family: "Alegreya", serif;
-  font-size: 80px;
   font-weight: 700;
   font-style: italic;
   font-variant: small-caps;
   color: #C1272D;
 }
 
+
+h3 em {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-variant: small-caps;
+  color: #C1272D;
+  margin: 0;
+}
+
+
+h1 em { font-size: 80px; }
+h2 em { font-size: 30px; }
+h3 em { font-size: 25px; }
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
 
 
 /*---------------------------------------
@@ -183,6 +225,7 @@ h1 em {
   background: url(../imgs/brucelogo-red.svg) no-repeat;
   width: 150px;
   height: 70px;
+  display: block;
 }
 
 .navburger {
@@ -451,4 +494,100 @@ video.fillWidth {
 
 footer {
   background-color: #333;
+}
+
+footer .section-container {
+  padding: 50px 0;
+}
+
+footer .map,
+footer .copyright-content {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px 20px 0px;
+}
+
+footer .map img {
+  width: 100%;
+  height: auto;
+}
+
+.copyright-content p {
+  font-size: 15px;
+  width: 51%;
+  margin-left: 45px;
+}
+
+footer a {
+  color: #808080;
+}
+
+.copyright-content a {
+  color: #808080;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #fff;
+}
+
+footer ul li {
+  color: #808080;
+  padding: 5px 0 30px 50px;
+}
+
+.contact-phone {
+  background: url(../imgs/contact-icons/contact-phone.png) no-repeat;
+}
+
+.contact-email {
+  background: url(../imgs/contact-icons/contact-email.png) no-repeat;
+}
+
+.contact-loc {
+  background: url(../imgs/contact-icons/contact-loc.png) no-repeat;
+}
+
+
+
+
+
+
+/*---------------------------------------
+  FORM CSS
+---------------------------------------*/
+
+
+/* Footer Form CSS--------------------------*/
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+textarea {
+  width: 100%;  
+  margin: 0; 
+  padding: 0; 
+  border: 0;
+  border: 0px solid #ccc;
+}
+
+.inputContainer {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #a9a9a9;
+  margin: 20px auto;
+}
+
+.textarea {
+  margin-bottom: 35px;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #4697e4;
 }
