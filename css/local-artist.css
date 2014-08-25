@@ -1,0 +1,111 @@
+.band-member,
+.band-article {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px 20px 0px 20px;
+}
+
+
+
+/*---------------------------------------
+  SECTION: INTRO
+---------------------------------------*/
+#artist-featurette {
+  background: url(../imgs/local-artists/yukon-blonde-bw.jpg) no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+#artist-featurette .bigHeader {
+  text-transform: none;
+  line-height: 40px;
+}
+
+.band-name {
+  margin-top: 350px;
+}
+
+.band-name h2 {
+  margin: 0;
+  color: #fff;
+  font-variant: normal;
+  letter-spacing: 2px;
+}
+
+
+
+
+/*---------------------------------------
+  SECTION: ARTIST BIO
+---------------------------------------*/
+.band-article p {
+  font-size: 15px;
+  color: #fff;
+  line-height: 25px;
+}
+
+
+
+/*---------------------------------------
+  SECTION: ARTIST MEMBERS
+---------------------------------------*/
+#artist-members {
+  background-color: #f2f2f2;
+}
+
+
+.band-member img {
+  max-height: 450px;
+  width: auto;
+  margin-bottom: 30px;
+  -webkit-transition-duration: 0.2s;  
+  transition-duration: 0.2s;
+}
+
+.band-member img:hover {
+  transform: matrix(0.99756, -0.06975, 0.06975, 0.99756, 0, 0);
+  -webkit-transition-duration: 0.2s;  
+  transition-duration: 0.2s;
+}
+
+.band-member h3 {
+  font-family: "Intro", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.band-role {
+  font-size: 13px;
+  font-style: italic;
+  /*margin-bottom: 80px;*/
+}
+
+
+
+
+
+
+/*---------------------------------------
+  SECTION: CONTACT ARTIST
+---------------------------------------*/
+#artist-contact {
+  border-bottom: 1px solid #444;
+}
+
+#artist-contact img {
+  max-height: 250px;
+  width: auto;
+  margin-bottom: 30px;
+  -webkit-transition-duration: 0.2s;  
+  transition-duration: 0.2s;
+}
+
+#artist-contact img:hover {
+  transform: matrix(0.99756, -0.06975, 0.06975, 0.99756, 0, 0);
+  -webkit-transition-duration: 0.2s;  
+  transition-duration: 0.2s;
+}

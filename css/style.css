@@ -129,7 +129,8 @@ p {
 }
 
 
-h1, h2 {
+h1, h2,
+h1 a, h2 a {
   font-family: 'Alegreya', serif;
   font-weight: 100;
   font-style: italic;
@@ -138,7 +139,7 @@ h1, h2 {
   line-height: 70px;
 }
 
-h3 {
+h3, h3 a {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   color: #808080;
@@ -323,12 +324,11 @@ ul {
   margin: auto;
 }
 
-.tagline {
+.bigHeader {
   font-family: "Alegreya", serif;
   font-size: 80px;
   font-weight: 700;
   text-transform: uppercase;
-  text-align: center;
   color: #fff;
   max-width: 700px;
   margin: auto;
@@ -492,6 +492,7 @@ video.fillWidth {
 
 footer {
   background-color: #333;
+  border-top: 1px solid #444;
 }
 
 footer .section-container {
