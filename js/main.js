@@ -48,6 +48,31 @@ $( document ).ready(function() {
       video1.play();
     });
 
+    // contact form submit
+    $('form').on('click', '.get-in-touch', function(e){
+       e.preventDefault() //this prevents the form from submitting normally, but still allows the click to 'bubble up'.
+       
+       //lets get our values from the form....
+       var email = $('#form-email').val();
+       var message = $('#form-comments').val();
+           
+       console.log(email);
+       console.log(message);
+       //now lets make our ajax call
+       //  $.ajax({
+       //    type: "POST",
+       //    url: "php/form.php",
+       //     data: { email: email, comments: message }
+       //  }).done(function() {
+        
+           //replace submit button with some text...
+           $('.get-in-touch').fadeOut('slow');
+           //$('.get-in-touch').after('<p class="messageSent" style="color: white">Message Sent!</span>');
+
+           
+        // });       
+    });
+
     // Back to Resources button
     // $(document).ready(function() {
     //     var offset = 500;

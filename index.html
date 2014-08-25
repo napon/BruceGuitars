@@ -273,16 +273,16 @@
 
           <div class="left four">
             <h3>Ready to get in <em>touch</em>?</h3>
-            <form action="form.php" method="get">
-        
+
+            <form action="php/form.php" method="post">
               <div class="inputContainer">
-                <input type="email" name="email" placeholder="you@somewhere.com" />
+                <input id="form-email" type="email" name="email" placeholder="you@somewhere.com" />
               </div>
               <div class="inputContainer textarea">
-              <textarea name="comments" rows="3" cols="100" placeholder="Questions? Comments? Interesting fact? Quote of the day?"></textarea>
+              <textarea id="form-comments" name="comments" rows="3" cols="100" placeholder="Questions? Comments? Interesting fact? Quote of the day?"></textarea>
               </div>
 
-              <a href="#" class="button cta-dark">Get in Touch</a>
+              <input class="button cta-dark get-in-touch" value="get in touch" type="submit"></form>
             </form>
           </div>
 

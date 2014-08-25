@@ -79,6 +79,7 @@ body {
   padding: 13px;
   font-family: "Intro", sans-serif;
   font-size: 12px;
+  outline: 0;
   letter-spacing: 2px;
   -webkit-transition-duration: 0.2s;  
   transition-duration: 0.2s;
@@ -119,7 +120,6 @@ body {
 a {
   text-decoration: none;
 }
-
 
 p {
   font-family: "Open Sans", sans-serif;
