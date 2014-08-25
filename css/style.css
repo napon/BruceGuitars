@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 
+@import url(http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,900italic,400,700,900);
+
 @font-face {
     font-family: 'Intro';
     src: url('../fonts/Intro/intro-webfont.eot');
@@ -110,7 +112,7 @@ p {
 }
 
 h1 {
-  font-family: "Garamond Premier Pro", serif;
+  font-family: 'Merriweather', serif;
   font-size: 70px;
   font-weight: 100;
   font-style: italic;
@@ -120,7 +122,7 @@ h1 {
 }
 
 h1 em {
-  font-family: "Garamond Premier Pro", serif;
+  font-family: "Merriweather", serif;
   font-size: 80px;
   font-weight: 700;
   font-style: italic;
@@ -287,7 +289,7 @@ h1 em {
 }
 
 .tagline {
-  font-family: "Garamond Premier Pro", serif;
+  font-family: "Merriweather", serif;
   font-size: 80px;
   font-weight: 700;
   text-transform: uppercase;
