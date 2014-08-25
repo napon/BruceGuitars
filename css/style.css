@@ -330,8 +330,14 @@ h1 em {
 
 
 /* Header Video CSS */
+video {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
 video.fillWidth {
   width: auto;
+  position: absolute;
 }
 
 .video-container {
@@ -344,6 +350,9 @@ video.fillWidth {
   overflow: hidden;
 }
 
+.hide {
+  opacity: 0;
+}
 
 
 /*---------------------------------------
