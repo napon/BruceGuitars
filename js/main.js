@@ -64,8 +64,9 @@ $( document ).ready(function() {
           url: "php/form.php",
           data: { email: email, comments: message }
         }).done(function() {
-           
-           $('.get-in-touch').after('<p class="messageSent" style="color: white">Message Sent!</span>'); 
+          $('.get-in-touch').after('<p class="messageSent" style="color: white">Message Sent!</span>'); 
+        }).fail(function(){
+          $('.get-in-touch').after('<p class="messageSent" style="color: white">Message is not sent. Please try again later.</span>'); 
         });
         
     });
