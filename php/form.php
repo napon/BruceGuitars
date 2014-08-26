@@ -13,6 +13,7 @@ $mail->Username = "napnaptestemail@gmail.com";
 $mail->Password = "coolstorybro";
 $mail->Subject = "MESSAGE FROM: " . $_POST["email"];
 $mail->Body = $_POST["comments"];
+
 $mail->AddAddress("napnaptestemail@gmail.com");
 
 if(!$mail->Send()) {
