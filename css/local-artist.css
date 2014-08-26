@@ -1,3 +1,5 @@
+
+
 .band-member,
 .band-article {
   -moz-box-sizing: border-box;
@@ -19,14 +21,21 @@
   color: #fff;
 }
 
+#artist-featurette .section-container {
+  height: 100vh;
+  padding: 0;
+}
+
 #artist-featurette .bigHeader {
   text-transform: none;
   line-height: 40px;
+  position: absolute;
+  bottom: 100px;
 }
 
-.band-name {
+/*.band-name {
   margin-top: 350px;
-}
+}*/
 
 .band-name h2 {
   margin: 0;
@@ -108,4 +117,12 @@
   transform: matrix(0.99756, -0.06975, 0.06975, 0.99756, 0, 0);
   -webkit-transition-duration: 0.2s;  
   transition-duration: 0.2s;
+}
+
+#artist-contact a {
+  color: #808080;
+}
+
+#artist-contact a:hover {
+  color: #fff;
 }
