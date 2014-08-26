@@ -2,8 +2,12 @@ $( document ).ready(function() {
 
     // Scroll to 
     $(".about").click(function(event) {
-    event.preventDefault();
-    $("body").animate({scrollTop: $("#who-bruce").offset().top-75}, 'slow');
+      event.preventDefault();
+      $("body").animate({scrollTop: $("#who-bruce").offset().top-75}, 'slow');
+    });
+    $("#connect-with-bruce").click(function(event) {
+      event.preventDefault();
+      $("body").animate({scrollTop: $("footer").offset().top-75}, 'slow');
     });
 
     // product hover

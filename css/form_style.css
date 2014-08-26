@@ -8,6 +8,7 @@
 	position: fixed;
 	top: 50%;
 	width: 400px;
+	text-align: center;
 }
 
 .map-img {
@@ -16,9 +17,10 @@
 	background-image: url('../imgs/map.jpg');
 }
 
-#dialog h1 {
-	text-align: center;
+#dialog h2 {
 	padding-top: 20px;
+	font-family: 'Intro';
+	font-size: 25pt;
 }
 
 .close-button {
