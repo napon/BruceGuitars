@@ -530,7 +530,7 @@ footer {
 }
 
 footer .section-container {
-  padding: 50px 0;
+  padding: 10px 0;
 }
 
 footer .map,
@@ -539,6 +539,13 @@ footer .copyright-content {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 15px 40px 0px 0px;
+}
+
+footer .contact-info {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px 40px;
 }
 
 footer .map img {
@@ -565,7 +572,8 @@ a:hover {
   color: #fff;
 }
 
-footer ul li {
+/*footer ul li*/
+footer .contact-info p {
   color: #808080;
   padding: 5px 0 30px 50px;
 }
