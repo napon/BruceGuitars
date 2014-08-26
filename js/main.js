@@ -14,14 +14,18 @@ $( document ).ready(function() {
     });
 
     // menu hover
-    var video1 = document.getElementById('bg-video');
+    var video1 = document.getElementById('bg-video'); // default
     var video2 = document.getElementById('amps-video');
+    var video3 = document.getElementById('guitarplay-video');
+    var video4 = document.getElementById('guitars-video');
     $('#local_band').hover(function() {
       video1.classList.add('hide');
       video2.classList.remove('hide');
       video2.play();
     }, function() {
       video2.classList.add('hide');
+      video3.classList.add('hide');
+      video4.classList.add('hide');
       video1.classList.remove('hide');
       video1.play();
     });
@@ -29,10 +33,12 @@ $( document ).ready(function() {
     var video2 = document.getElementById('amps-video');
     $('#local_guitarist').hover(function() {
       video1.classList.add('hide');
-      video2.classList.remove('hide');
-      video2.play();
+      video3.classList.remove('hide');
+      video3.play();
     }, function() {
       video2.classList.add('hide');
+      video3.classList.add('hide');
+      video4.classList.add('hide');
       video1.classList.remove('hide');
       video1.play();
     });
@@ -40,10 +46,12 @@ $( document ).ready(function() {
     var video2 = document.getElementById('amps-video');
     $('#local_artist').hover(function() {
       video1.classList.add('hide');
-      video2.classList.remove('hide');
-      video2.play();
+      video4.classList.remove('hide');
+      video4.play();
     }, function() {
       video2.classList.add('hide');
+      video3.classList.add('hide');
+      video4.classList.add('hide');
       video1.classList.remove('hide');
       video1.play();
     });
