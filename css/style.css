@@ -333,7 +333,8 @@ ul {
 
 .bigHeader {
   font-family: "Alegreya", serif;
-  font-size: 80px;
+  /*font-size: 80px;*/
+  font-size: 7vw;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
@@ -526,7 +527,7 @@ footer .map img {
 
 .copyright-content p {
   font-size: 15px;
-  width: 51%;
+  /*width: 51%;*/
   margin-left: 45px;
 }
 
