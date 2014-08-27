@@ -57,6 +57,20 @@
 }
 
 
+.band-quote p {
+  font-size: 40px;
+  color: #fff;
+  line-height: 50px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.band-quote .quote-credit {
+  font-size: 15px;
+  color: #808080;
+}
+
+
 
 /*---------------------------------------
   SECTION: ARTIST MEMBERS

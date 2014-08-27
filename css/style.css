@@ -92,7 +92,7 @@ body {
 
 
 /*CTA -- For Dark BG*/
-.cta-dark {
+/*.cta-dark {
   background-color: #333;
   border: 5px solid #C1272D;
   color: #fff;
@@ -101,7 +101,7 @@ body {
 .cta-dark:hover {
   background-color: #C1272D;
   border: 5px solid #C1272D;
-}
+}*/
 
 /*CTA -- For Light BG*/
 .cta-light {
@@ -114,6 +114,18 @@ body {
   background-color: #C1272D;
   border: 5px solid #C1272D;
   color: #fff;
+}
+
+/*CTA -- For Dark BG*/
+.cta-dark {
+  background-color: transparent;
+  border: 5px solid #C1272D;
+  color: #fff;
+}
+
+.cta-dark:hover {
+  background-color: #C1272D;
+  border: 5px solid #C1272D;
 }
 
 
@@ -436,7 +448,6 @@ video.fillWidth {
 
 #who-bruce {
   height: 100%;
-  background-color: #f2f2f2;
 }
 
 .section-content p {
@@ -461,7 +472,7 @@ video.fillWidth {
 ---------------------------------------*/
 
 #disc-local {
-  background-color: #333;
+  background-color: #f2f2f2;
   border-bottom: 1px solid #444;
 }
 
@@ -516,7 +527,7 @@ video.fillWidth {
   SECTION: INSTAGRAM FEED
 ---------------------------------------*/
 .hashtag-title {
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 
 
